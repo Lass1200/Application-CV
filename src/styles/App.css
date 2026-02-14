@@ -1,0 +1,78 @@
+/* Styles globaux */
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Conteneur flex : CV à gauche, formulaire à droite */
+.cv-container {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+/* CVPreview à gauche */
+.preview-section {
+  flex: 1;
+  border-right: 2px solid #ccc;
+  padding-right: 20px;
+}
+
+/* Formulaire à droite */
+.form-section {
+  flex: 1;
+  max-width: 500px;
+}
+
+/* Titres */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Inputs et textarea */
+input, textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+/* Boutons */
+button {
+  padding: 8px 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* CVPreview sections */
+.preview-section div {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.preview-section section {
+  margin-bottom: 15px;
+}
+
+.preview-section h3 {
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.preview-section p {
+  margin: 3px 0;
+}
